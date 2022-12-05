@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box ;
+    position: fixed;
+    bottom: 1%;
+    
+}
+
+.a-canvas {
+    padding: 2%;
+}
+
+#cont{
+   left: 20px; 
+}
+#back{
+    right:75px;
+}
+
+.a-enter-vr-button { 
+    margin-bottom: 40px;
+}
+
