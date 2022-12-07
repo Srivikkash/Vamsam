@@ -10,13 +10,13 @@
   <table class="table table-striped table-bordered table-hover">
     <thead class="table-dark">
       <tr>
-        <th  scope="col">LandID</th>
+        <th  scope="col">Plot ID</th>
         <th  scope="col">Square Feet</th>
-        <th  scope="col">Prize</th>
-        <th  scope="col">Register Name</th>
-        <th  scope="col">Register Phone</th>
-        <th  scope="col">Register Date</th>
-        <th  scope="col"> Register Status</th>
+        <th  scope="col">Rate</th>
+        <th  scope="col">Leader Name</th>
+        <th  scope="col">Phone Number</th>
+        <th  scope="col">Date</th>
+        <th  scope="col">Status</th>
         </tr>  
     </thead>
       <tbody>

@@ -55,7 +55,7 @@
   <div class="container ">
     <form action="" method="post">
       <div class="form-group">
-      <b> <label for="landid" >Land Id:</label>
+      <b> <label for="landid" >Plot Id:</label>
       <i><label for="landid"><?php echo $id  ?></label></i>
       </div>
 
@@ -65,17 +65,17 @@
       </div>
 
       <div class="form-group">
-        <label for="prize" >Prize</label>
+        <label for="prize" >Rate</label>
         <input type="text" name="prize"  class="form-control" value="<?php echo $prize  ?>">
       </div>    
 
       <div class="form-group">
-        <label for="rname" >Register Name</label>
+        <label for="rname" >Leader Name</label>
         <input type="text" name="rname"  class="form-control" value="<?php echo $rname  ?>" required=''>
       </div> 
       
       <div class="form-group">
-        <label for="rphone" >Register Phone Number </label>
+        <label for="rphone" >Phone Number </label>
         <input type="number" name="rphone"  class="form-control" value="<?php echo $rphone  ?>" required=''>
       </div>
 

@@ -53,7 +53,7 @@
 </table>
 
 
-<button type="button" class="btn btn-warning" onclick="window.location='login.php' " style="display:block;">Admin Login</button>
+<button type="button" class="btn btn-warning" onclick="window.location='login.php' " style="display:block;">Leader Login</button>
 <img src="image/land.jpg" alt="vamsam" id="vamsam_lnd" style="height: 700px;">  
 <br> <br><b></b> <b><label for="uname">Colour Variations:</label><br></b>
   <button type="button" class="btn btn-success">Land Not Register</button>

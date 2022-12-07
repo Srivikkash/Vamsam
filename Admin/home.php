@@ -14,11 +14,11 @@ if (!isset($_GET['user']))
         <table class="table table-striped table-bordered table-hover">
           <thead class="table-dark">
             <tr>
-              <th  scope="col">Land ID Number</th>
+              <th  scope="col">Plot ID Number</th>
               <th  scope="col">Square Feet</th>
-              <th  scope="col">Prize</th>
-              <th  scope="col"> Register Status</th>
-              <th  scope="col" colspan="3" class="text-center">Registration Process</th>
+              <th  scope="col">Rate</th>
+              <th  scope="col">Status</th>
+              <th  scope="col" colspan="3" class="text-center">Modify</th>
             </tr>  
           </thead>
             <tbody>
