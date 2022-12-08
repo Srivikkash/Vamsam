@@ -1,8 +1,8 @@
 <?php
 //server with default setting (user 'root' with no password)
-$host = 'sql307.unaux.com';  // server 
-$user = 'unaux_33127814';   
-$pass = "bsccs@12345";   
+$host = 'localhost';  // server 
+$user = 'roor';   
+$pass = "";   
 $database = 'unaux_33127814_vamsam';   //Database Name  
 
 // establishing connection
