@@ -3,7 +3,7 @@
 $host = 'localhost';  // server 
 $user = 'roor';   
 $pass = "";   
-$database = 'unaux_33127814_vamsam';   //Database Name  
+$database = 'vamsam';   //Database Name  
 
 // establishing connection
   $conn = mysqli_connect($host,$user,$pass,$database);   
