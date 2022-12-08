@@ -15,11 +15,16 @@
     <title>VASAM PROPERTY DEVELOPERS</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 
+
+  <link rel="stylesheet" href="button/button.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.min.js"></script>
 
 </head>
 <body>
 	<?php $landid=$_GET["landid"]?>
+<?php include "button/share.html" ?>
 	<a-scene>
 	<img id="panorama" src="<?php echo "image_land/l".$landid.".jpeg"?>"/>
 	<a-sky src="#panorama" rotation="0 -90 0"></a-sky>
@@ -30,7 +35,6 @@
             <input type="submit" class="btn btn-primary mt-2" value="Back">
         </div>
     </form>
-
 <!-- Footer -->
 	</body>
 	</html>

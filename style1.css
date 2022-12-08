@@ -1,0 +1,31 @@
+#land_btns{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-around;
+justify-content: center;
+margin:5px;
+}
+
+#vamsam{
+  display:block;
+    background: url(image/vamsam.jpg);
+    height: 700px; 
+    max-width:100%;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media only screen and (max-width: 800px){
+#vamsam{
+  background:url(image/vamsam_phn.jpg);
+  height:auto ; 
+  max-width:100%;
+    background-repeat: no-repeat;
+  background-size: content;
+}
+#land_btns{
+align-items: flex-start;
+justify-content: space-evenly;
+}
+}
