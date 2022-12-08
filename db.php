@@ -1,9 +1,9 @@
 <?php
 //server with default setting (user 'root' with no password)
-$host = 'sql307.unaux.com';  // server 
-$user = 'unaux_33127814';   
-$pass = "bsccs@12345";   
-$database = 'unaux_33127814_vamsam';   //Database Name  
+$host = 'localhost';  // server 
+$user = 'roor';   
+$pass = "";   
+$database = 'vamsam';   //Database Name  
 
 // establishing connection
   $conn = mysqli_connect($host,$user,$pass,$database);   
